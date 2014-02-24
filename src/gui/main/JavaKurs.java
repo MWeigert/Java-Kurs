@@ -39,6 +39,7 @@ public class JavaKurs extends Application {
 		border.setTop(menu);
 		border.setLeft(new Text("Aufgabenbereich"));
 		border.setCenter(new Text("Lösungsbereich"));
+		border.setRight(new Text("Codebereich"));
 		border.setBottom(new Text("Info Leiste"));
 
 		Scene scene = new Scene(border);

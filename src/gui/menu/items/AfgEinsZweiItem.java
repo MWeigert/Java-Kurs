@@ -3,7 +3,7 @@
  */
 package gui.menu.items;
 
-import gui.menu.action.TeilEinsHandler;
+import gui.menu.action.AfgEinsZweiHandler;
 import javafx.scene.control.MenuItem;
 import javafx.scene.layout.BorderPane;
 
@@ -11,16 +11,16 @@ import javafx.scene.layout.BorderPane;
  * @author Mathias Weigert
  *
  */
-public class AufgabeEinsZwei {
+public class AfgEinsZweiItem {
 
 	private MenuItem afgEinsZwei;
 
-	public AufgabeEinsZwei(BorderPane pane) {
+	public AfgEinsZweiItem(BorderPane pane) {
 		afgEinsZwei = new MenuItem("Aufgabe 2");
 		afgEinsZwei.setOnAction(new AfgEinsZweiHandler(pane));
 	}
 
-	public MenuItem getAufgabe1(){
+	public MenuItem getAufgabe2(){
 		return afgEinsZwei;
 	}
 	
