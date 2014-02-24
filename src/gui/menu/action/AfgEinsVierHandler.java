@@ -25,10 +25,12 @@ public class AfgEinsVierHandler implements EventHandler<javafx.event.ActionEvent
 		TextArea txt = new TextArea();
 		txt.setWrapText(true);
 
-		txt.setText("Schreiben Sie ein kleines Programm bestehend aus einer Klasse, definieren "
-				+ "Sie in der Klasse einen Konstruktor, Instanz- und Klassen-Variablen, einen "
-				+ "Initialisierungsblock sowie einen statischen Initialisierungsblock. \n\nÜberprüfen Sie "
-				+ "in Ihrer Anwendung die Reihenfolge der Initialisierungen.");
+		txt.setText("Schreiben Sie ein kleines Programm bestehend aus einer Klasse, "
+				+ "definieren Sie in der Klasse ein Datenfeld vom Typ StringBuilder "
+				+ "und ein Datenfeld vom Typ String. \n\nÜberprüfen Sie in Ihrer Anwendung "
+				+ "die Funktionsweise der Methoden der KlassenStringBuilder und String. "
+				+ "Führen Sie in einem Loop Konkatenierungs-Operationen aus für "
+				+ "StringBuilder und String und vergleichen Sie die Performance der beiden Klassen.");
 		pane.setLeft(txt);
 	}
 	

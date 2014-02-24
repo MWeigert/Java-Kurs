@@ -25,10 +25,11 @@ public class AfgEinsEinsHandler implements EventHandler<javafx.event.ActionEvent
 		TextArea txt = new TextArea();
 		txt.setWrapText(true);
 
-		txt.setText("Schreiben Sie ein kleines Programm bestehend aus einer Klasse, definieren "
-				+ "Sie in der Klasse einen Konstruktor, Instanz- und Klassen-Variablen, einen "
-				+ "Initialisierungsblock sowie einen statischen Initialisierungsblock. \n\nÜberprüfen Sie "
-				+ "in Ihrer Anwendung die Reihenfolge der Initialisierungen.");
+		txt.setText("Schreiben Sie ein kleines Programm bestehend aus einer Klasse, "
+				+ "definieren Sie in der Klasse einige Datenfelder und eine main-Methode. "
+				+ "\n\nÜberprüfen Sie an den Datenfeldern die Namensregeln für Identifier. "
+				+ "\n\nÜberprüfen Sie die möglichen Modifier für die Klasse und für die Datenfelder. "
+				+ "\n\nÜberprüfen Sie die Regeln, die für die main-Methode gelten.");
 		pane.setLeft(txt);
 	}
 }

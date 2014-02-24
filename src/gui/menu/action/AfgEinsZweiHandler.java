@@ -26,10 +26,10 @@ public class AfgEinsZweiHandler implements EventHandler<javafx.event.ActionEvent
 		txt.setWrapText(true);
 
 		txt.setText("Schreiben Sie ein kleines Programm bestehend aus einer Klasse, "
-				+ "definieren Sie in der Klasse einige Datenfelder und eine main-Methode.\n\n"
-				+ " Überprüfen Sie an den Datenfeldern die Namensregeln für Identifier.\n\n"
-				+ " Überprüfen Sie die möglichen Modifier für die Klasse und für die "
-				+ "Datenfelder. \n\nÜberprüfen Sie die Regeln, die für die main-Methode gelten.");
+				+ "definieren Sie in der Klasse einen Konstruktor, Instanz- und "
+				+ "Klassen-Variablen, einen Initialisierungsblock sowie einen statischen "
+				+ "Initialisierungsblock. "
+				+ "\n\nÜberprüfen Sie in Ihrer Anwendung die Reihenfolge der Initialisierungen.");
 		
 		pane.setLeft(txt);		
 	}
