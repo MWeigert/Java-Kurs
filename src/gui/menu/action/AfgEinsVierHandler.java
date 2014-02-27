@@ -5,6 +5,7 @@ package gui.menu.action;
 
 import java.io.File;
 
+import tools.io.ExtractPath;
 import tools.io.LoadCode;
 import afg.lektion1.Aufgabe14;
 import javafx.event.ActionEvent;
@@ -52,7 +53,7 @@ public class AfgEinsVierHandler implements
 		tst.setFill(Color.RED);
 		Text info = new Text("afg.lektion1.Aufgabe14");
 		
-		File file = new File("C:\\Users\\Bunny\\workspace\\Java-Kurs\\src\\afg\\lektion1\\Aufgabe14.java");
+		File file = new File(afg.getClassPath());
 		LoadCode lc = new LoadCode(file);
 		TextArea txtCode = new TextArea(lc.getCode());
 		

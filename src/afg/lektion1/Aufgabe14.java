@@ -10,6 +10,8 @@
  */
 package afg.lektion1;
 
+import tools.io.ExtractPath;
+
 /**
  * @author Mathias Weigert
  * 
@@ -21,6 +23,7 @@ public class Aufgabe14 {
 	private static StringBuilder stringBuilder;
 
 	private String output;
+	private String classPath;
 
 	/**
 	 * 
@@ -101,6 +104,13 @@ public class Aufgabe14 {
 
 	public String getOutPut() {
 		return output;
+	}
+
+	public String getClassPath() {
+		String origin = System.getProperty("java.class.path");
+		ExtractPath ep = new ExtractPath(origin);
+		classPath = ep.getPath() + "\\src\\afg\\lektion1\\Aufgabe14.java";
+		return classPath;
 	}
 
 }
