@@ -5,7 +5,6 @@ package gui.menu.action;
 
 import java.io.File;
 
-import tools.io.ExtractPath;
 import tools.io.LoadCode;
 import afg.lektion1.Aufgabe14;
 import javafx.event.ActionEvent;
