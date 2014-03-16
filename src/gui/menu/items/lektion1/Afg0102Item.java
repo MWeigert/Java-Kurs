@@ -1,7 +1,7 @@
 /**
  * 
  */
-package gui.menu.items;
+package gui.menu.items.lektion1;
 
 import gui.menu.action.AfgEinsZweiHandler;
 import javafx.scene.control.MenuItem;
@@ -11,11 +11,11 @@ import javafx.scene.layout.BorderPane;
  * @author Mathias Weigert
  *
  */
-public class AfgEinsZweiItem {
+public class Afg0102Item {
 
 	private MenuItem afgEinsZwei;
 
-	public AfgEinsZweiItem(BorderPane pane) {
+	public Afg0102Item(BorderPane pane) {
 		afgEinsZwei = new MenuItem("Aufgabe 2");
 		afgEinsZwei.setOnAction(new AfgEinsZweiHandler(pane));
 	}

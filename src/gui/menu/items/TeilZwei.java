@@ -14,13 +14,13 @@ import javafx.scene.control.Menu;
  * @author Mathias Weigert
  * 
  */
-public class TeilEins {
+public class TeilZwei {
 
-	private Menu menuEins;
+	private Menu menuZwei;
 
-	public TeilEins(JavaKurs jk) {
-		menuEins = new Menu("Teil 1");
-		menuEins.getItems().addAll(
+	public TeilZwei(JavaKurs jk) {
+		menuZwei = new Menu("Teil 2");
+		menuZwei.getItems().addAll(
 				new Afg0101Item(jk.getBorder()).getAufgabe1(),
 				new Afg0102Item(jk.getBorder()).getAufgabe2(),
 				new Afg0103Item(jk.getBorder()).getAufgabe3(),
@@ -28,8 +28,8 @@ public class TeilEins {
 				);
 	}
 
-	public Menu getEinsItem() {
-		return menuEins;
+	public Menu getZweiItem() {
+		return menuZwei;
 	}
 
 }
