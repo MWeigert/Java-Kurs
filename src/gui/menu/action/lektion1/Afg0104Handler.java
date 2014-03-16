@@ -1,7 +1,7 @@
 /**
  * 
  */
-package gui.menu.action;
+package gui.menu.action.lektion1;
 
 import java.io.File;
 
@@ -19,12 +19,12 @@ import javafx.scene.text.Text;
  * @author Mathias Weigert
  * 
  */
-public class AfgEinsVierHandler implements
+public class Afg0104Handler implements
 		EventHandler<javafx.event.ActionEvent> {
 
 	private BorderPane pane;
 
-	public AfgEinsVierHandler(BorderPane pane) {
+	public Afg0104Handler(BorderPane pane) {
 		this.pane = pane;
 	}
 

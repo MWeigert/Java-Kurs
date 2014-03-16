@@ -1,7 +1,7 @@
 /**
  * 
  */
-package gui.menu.action;
+package gui.menu.action.lektion1;
 
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
@@ -12,11 +12,11 @@ import javafx.scene.layout.BorderPane;
  * @author Administrator
  *
  */
-public class AfgEinsZweiHandler implements EventHandler<javafx.event.ActionEvent>{
+public class Afg0102Handler implements EventHandler<javafx.event.ActionEvent>{
 
 	private BorderPane pane;
 	
-	public AfgEinsZweiHandler(BorderPane pane) {
+	public Afg0102Handler(BorderPane pane) {
 		this.pane = pane;
 	}
 

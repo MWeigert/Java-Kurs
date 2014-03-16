@@ -3,7 +3,7 @@
  */
 package gui.menu.items.lektion1;
 
-import gui.menu.action.AfgEinsZweiHandler;
+import gui.menu.action.lektion1.Afg0102Handler;
 import javafx.scene.control.MenuItem;
 import javafx.scene.layout.BorderPane;
 
@@ -17,7 +17,7 @@ public class Afg0102Item {
 
 	public Afg0102Item(BorderPane pane) {
 		afgEinsZwei = new MenuItem("Aufgabe 2");
-		afgEinsZwei.setOnAction(new AfgEinsZweiHandler(pane));
+		afgEinsZwei.setOnAction(new Afg0102Handler(pane));
 	}
 
 	public MenuItem getAufgabe2(){
